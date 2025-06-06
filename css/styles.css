@@ -1,0 +1,22 @@
+.icon {
+  width: 54px;
+  height: 54px;
+  border-radius: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 16px;
+}
+.green {
+  background-color: #02897a;
+}
+.blue {
+  background-color: #4d8dff;
+}
+.purple {
+  background-color: #740a76;
+}
+.red {
+  background-color: #f03e3d;
+}
