@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
@@ -13,16 +14,14 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&family=Poppins&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- !HEADER SECTION -->
     <header class="header">
-      <div class="header__container">
+      <div class="container header__container">
         <div class="logo">
           <svg class="logo__icon">
             <use href="./images/icons.svg#icon-logo"></use>
@@ -72,6 +71,7 @@
     </header>
 
     <main>
+      <!-- !HERO SECTION -->
       <section class="hero section">
         <div class="container">
           <img
@@ -99,6 +99,7 @@
         </div>
       </section>
 
+      <!-- !SPECIFICALLY SECTION -->
       <section class="specifically section">
         <div class="container">
           <h2 class="specifically__title">
@@ -149,29 +150,37 @@
         </div>
       </section>
 
+      <!-- !MANAGEMENT SECTION -->
       <section class="management section">
         <div class="container">
           <img class="img" src="./images/management-img.svg" alt="" />
-          <ul>
-            <li>
-              <h4>Effortless Validation for</h4>
-              <h2>Management</h2>
-              <p>
+
+          <ul class="management__list">
+            <li class="management__item">
+              <h2 class="management__title">
+                <span class="management-title__span"
+                  >Effortless Validation for</span
+                >
+                Management
+              </h2>
+              <p class="management__text">
                 The Myspace page defines the individual, his or her
                 characteristics, traits, personal choices and the overall
                 personality of the person.
               </p>
             </li>
-            <li>
-              <h4>Accessory makers</h4>
-              <p>
+
+            <li class="management__item">
+              <h4 class="management__sub-title">Accessory makers</h4>
+              <p class="management__text">
                 While most people enjoy casino gambling, sports betting, lottery
                 and bingo playing for the fun
               </p>
             </li>
-            <li>
-              <h4>Alterationists</h4>
-              <p>
+
+            <li class="management__item">
+              <h4 class="management__sub-title">Alterationists</h4>
+              <p class="management__text">
                 If you are looking for a new way to promote your business that
                 won`t cost you more money,
               </p>
@@ -180,56 +189,7 @@
         </div>
       </section>
 
-      <section>
-        <h2>Price Table</h2>
-        <p>We offer competitive price</p>
-
-        <ul>
-          <li>
-            <h3>Free</h3>
-            <p>Brief price description</p>
-            <p>0</p>
-            <p>&dollar;</p>
-            <p>Per / month</p>
-            <ul>
-              <li>Only 2 Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-
-          <li>
-            <h3>Standard</h3>
-            <p>Brief price description</p>
-            <p>5</p>
-            <p>&dollar;</p>
-            <p>Per / month</p>
-            <ul>
-              <li>5+ Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-
-          <li>
-            <h3>Premium</h3>
-            <p>Brief price description</p>
-            <p>10</p>
-            <p>&dollar;</p>
-            <p>Per / month</p>
-            <ul>
-              <li>10+ Operators</li>
-              <li>Notifications</li>
-              <li>Landing Pages</li>
-            </ul>
-            <button type="button">Order Now</button>
-          </li>
-
-          <li></li>
-        </ul>
-      </section>
+      
     </main>
 
     <footer></footer>
