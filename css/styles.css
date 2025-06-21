@@ -209,27 +209,75 @@ h2 {
 .red {
   background: #f03e3d;
 }
+.orange {
+  background: #ff9900;
+}
 
 .specifically__button {
   text-transform: uppercase;
 }
 
-/* !MANAGEMENT SECTION */
-.management__list {
+/* !MANAGEMENT & COLLABORATIVE SECTION*/
+.management__list, .collaborative__list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.management__title{
-  margin-bottom: 16px
+.management__title, .collaborative__title {
+  margin-bottom: 16px;
 }
 
-.management-title__span {
+.section-title__span {
   font-weight: 600;
   font-size: 16px;
 }
 
-.management__sub-title {
+.management__sub-title, .collaborative__sub-title {
   margin-bottom: 12px;
+}
+
+/* !SUPPORT SECTION */
+.support__title {
+  margin-bottom: 16px;
+}
+
+.support .img {
+  margin-bottom: 50px;
+}
+
+.support__text {
+  margin-bottom: 16px;
+}
+
+.support__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.support__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.support-item__icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+
+.support-item__icon {
+  width: 16px;
+  height: 12px;
+}
+
+.support-item__text {
+  word-wrap: break-word;
 }
