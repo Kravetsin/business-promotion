@@ -40,7 +40,7 @@ h2 {
 }
 
 .section {
-  margin-bottom: 100px;
+  padding: 50px 0;
 }
 
 .container {
@@ -55,7 +55,7 @@ h2 {
 
 .img {
   display: block;
-  width: 350px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -104,20 +104,16 @@ h2 {
   display: none;
 }
 
-.logo {
+.logo__link {
   display: flex;
-  justify-content: flex-start;
+  justify-self: center;
   align-items: center;
   gap: 8px;
-  padding: 21px 0;
-}
-
-.logo__link {
-  display: block;
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93333;
   color: #173a56;
+  padding: 21px 0;
 }
 
 .logo__icon {
@@ -218,13 +214,15 @@ h2 {
 }
 
 /* !MANAGEMENT & COLLABORATIVE SECTION*/
-.management__list, .collaborative__list {
+.management__list,
+.collaborative__list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.management__title, .collaborative__title {
+.management__title,
+.collaborative__title {
   margin-bottom: 16px;
 }
 
@@ -233,7 +231,8 @@ h2 {
   font-size: 16px;
 }
 
-.management__sub-title, .collaborative__sub-title {
+.management__sub-title,
+.collaborative__sub-title {
   margin-bottom: 12px;
 }
 
